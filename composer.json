@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saintminer\\S8pack\\Providers\\S8peackServiceProvider" 
+                "Saintminer\\S8pack\\Providers\\S8packServiceProvider" 
             ]
         }
     },
