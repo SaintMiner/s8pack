@@ -13,6 +13,14 @@
             "Saintminer\\S8pack\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saintminer\\S8pack\\Providers\\S8peackServiceProvider" 
+            ]
+        }
+    },
+    "license": "MIT",
     "authors": [
         {
             "name": "SaintMiner",
