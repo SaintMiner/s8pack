@@ -7,6 +7,7 @@ Class S8packServiceProvider extends ServiceProvider {
 
     public function boot() {
         info("S8PACK BOOTED");
+        $this->loadRoutesFrom(__DIR__.'\\..\\Routes\\routes.php');
     }
 
     public function register() {
