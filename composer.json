@@ -18,6 +18,13 @@
             "providers": [
                 "Saintminer\\S8pack\\Providers\\S8packServiceProvider" 
             ]
+        },
+        "hooks": {
+            "post-merge": [
+                "echo \"hello\"",
+                "php artisan migrate",
+                "php artisan config:cache"
+            ]
         }
     },
     "license": "MIT",
